@@ -25,5 +25,4 @@ gcloud beta run deploy "$INPUT_SERVICE" \
   --image "$INPUT_IMAGE" \
   --region "$INPUT_REGION" \
   --platform managed \
-  --allow-unauthenticated \
-  ${ENV_FLAG}
+  --allow-unauthenticated
